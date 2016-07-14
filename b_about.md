@@ -15,13 +15,10 @@ So I called my Jekyll theme Freshman21 (Freshman <q>twenty-first</q> , it means 
 
 Freshman21 have two main page format, one is [single column](http://yulijia.net/en/  "see demo"), the other is two columns. For more details, please see the articles on the site.
 
-<cite>Proudly enjoy using Freshman21 theme.</cite> <code>;)</code>
+<!--<cite>Proudly enjoy using Freshman21 theme.</cite> <code>;)</code>-->
 
-<img title="麋鹿" src="https://i.imgur.com/Mdc4szJl.jpg" alt="麋鹿" width="580" height="668" />
+<img title="hashcode55" src="http://i.imgur.com/BDxCu0C.jpg?1" alt="hashcode55" width="580" height="668" />
 
-#### Hi, the picture you have seen in the sample-page is a Père David's deer photoed by my friend at Beijing Milu Park, China.
-
-Milu(麋鹿) is the chinese name of Père David's deer.
 
 
 
