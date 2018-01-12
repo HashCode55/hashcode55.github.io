@@ -1,5 +1,5 @@
 ---
-layout: Test
+layout: post
 title: My first blog post! 
 ---
 
