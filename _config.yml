@@ -1,86 +1,59 @@
-#
-# This file contains configuration flags to customize your site
-#
 
-# Name of your site (displayed in the header)
-name: Mehul Ahuja
+# SEO settings
+title: "Programming"
+title2: "Satan" # default: ""
+description: "This is where my code dwells."
+keywords: "Jekyll, theme, program, C++, Python, Games, web, Golang"
+url: http://heiswayi.github.io/thinkspace # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
 
-# Short bio or description (displayed in the header)
-description: Software Developer
+google_analytics: UA-XXXXX-XX
+repo: 
+disqus_shortname: "hnbloggithub"
+twitter_username: ""
+comments: true
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars1.githubusercontent.com/u/14002198?s=460&v=4
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
 
-#
-# Flags below are optional
-#
+source: ./
+destination: ./_site
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: mehul.ahuja09@gmail.com
-  facebook:
-  flickr:
-  github: hashcode55
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: users/5540305/hashcode55
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url:
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
+# Sass configuration
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  sass_dir: assets/scss
+  style: compressed # expanded
 
-# Use the following plug-ins
+# Author settings
+author:
+  name     : "Mehul Ahuja"
+  job      : "Software Engineer"
+  bio      : "1+1=3 is always TRUE in my world, a balance between binary and reality."
+  thumb    : /images/author.jpg
+  email    : mehul.ahuja09@gmail.com
+  url      : "http://hashcode55.github.io"
+  github   : "http://github.com/hashcode55"
+  twitter  : 
+  facebook : ""
+  linkedin : ""
+
+# social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+twitter_site: ""
+
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - bourbon
+  - jekyll-paginate
 
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
