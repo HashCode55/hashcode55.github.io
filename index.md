@@ -1,1 +1,1 @@
-Physical manifestation of my thoughts around tech, philosophy and other stuff.  
+Digital manifestation of my thoughts around tech, philosophy and other stuff.  
